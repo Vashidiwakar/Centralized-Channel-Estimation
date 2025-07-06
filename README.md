@@ -26,7 +26,7 @@ This work focuses only on the centralized estimation part of the paper and explo
 ## Author
 
 **Vashi Diwakar**  
-Third-Year Undergraduate, Department of Electrical Engineering, IIT Kanpur  
+Junior Undergraduate, Department of Electrical Engineering, IIT Kanpur  
 LinkedIn: [https://www.linkedin.com/in/vashi-diwakar-1b6237288](https://www.linkedin.com/in/vashi-diwakar-1b6237288)  
 GitHub: [https://github.com/Vashidiwakar](https://github.com/Vashidiwakar)
 
