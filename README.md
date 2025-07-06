@@ -5,7 +5,7 @@ This repository provides a MATLAB implementation of centralized channel estimati
 > **Rajoriya, A., Budhiraja, R., & Hanzo, L. (2022).**  
 > _Centralized and decentralized channel estimation in FDD multi-user massive MIMO systems_,  
 > IEEE Transactions on Vehicular Technology, 71(7), 7325–7342.  
-> [Read Paper on IEEE Xplore](https://ieeexplore.ieee.org/document/9816249)
+> [Read Paper on IEEE Xplore](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9749955)
 
 This work focuses only on the centralized estimation part of the paper and exploits structured sparsity in the angular domain, accounting for user-specific, cluster, and common sparsity among scatterers.
 
@@ -16,10 +16,10 @@ This work focuses only on the centralized estimation part of the paper and explo
 | File                  | Description |
 |-----------------------|-------------|
 | `CE_mMIMO.m`          | Main script that runs the entire simulation. It calls all other functions and controls experiment flow. |
-| `Channel_Generation.m`| Generates sparse angular-domain channels considering user-specific, cluster-based, and common scatterers. |
-| `signal_gen_mMIMO.m`  | Simulates pilot transmission and received signal generation for multi-user FDD massive MIMO. |
-| `create_clusters.m`   | Introduces cluster-wise sparsity in the angular domain. Defines structured visibility of scatterers. |
-| `updates.m`           | Implements the Expectation-Maximization (EM) algorithm for parameter updates based on structured priors. |
+| `Channel_Generation.m`| Generates sparse angular-domain channels considering user-specific, cluster-based, and common sparsity. |
+| `signal_gen_mMIMO.m`  | Simulates pilot transmission and received signal generation for massive MIMO systems. |
+| `create_clusters.m`   | Introduces cluster sparsity in the angular domain. |
+| `updates.m`           | Implements the Expectation-Maximization (EM) algorithm for parameter updates. |
 
 ---
 
